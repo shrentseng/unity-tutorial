@@ -17,7 +17,6 @@ public class GameManager : MonoBehaviour
     {
         if (gameHasEnded == false)
         {
-            Debug.Log("Game Over");
             gameHasEnded = true;
             Invoke("Restart", restartDelay);
         }
